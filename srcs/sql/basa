@@ -1,0 +1,4 @@
+CREATE DATABASE moi_site;
+CREATE USER 'wpersimm'@'%' IDENTIFIED BY 'lolkekcheburek';
+GRANT ALL PRIVILEGES ON *.* to 'wpersimm'@'%';
+FLUSH PRIVILEGES;
